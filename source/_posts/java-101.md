@@ -4,7 +4,7 @@ title: Java 101
 
 #Collection
 
-![Java Collection](https://github.com/hche608/blog.hax3.github.io/raw/master/images/Java-Collection.png "Java Collection")
+![Java Collection](https://github.com/hche608/blog.hax3.github.io/raw/source/static/imgs/Java-Collection.png "Java Collection")
 
 ArrayList
 ```jave
