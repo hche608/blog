@@ -36,4 +36,4 @@ branches:
 env:
     global:
         # Github Pages
-        - GH_REF: github.com/hche608/hche608.github.io.git
+        - GH_REF: github.com/hche608/blog.hax3.github.io.git
