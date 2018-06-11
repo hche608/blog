@@ -1,0 +1,39 @@
+language: node_js
+
+node_js: stable
+
+cache:
+    apt: true
+    directories:
+        - node_modules
+
+notifications:
+    email:
+        recipients:
+            - babycoolzx@126.com
+        on_success: change
+        on_failure: always
+
+before_install:
+    - export TZ='Pacific/Auckland'
+    - npm install hexo-cli -g
+    - chmod +x ./publish-to-gh-pages.sh
+
+install:
+    - npm install
+
+script:
+    - hexo clean
+    - hexo g
+
+after_script:
+    - ./publish-to-gh-pages.sh
+
+branches:
+    only:
+        - hexo
+
+env:
+    global:
+        # Github Pages
+        - GH_REF: github.com/hche608/blog.hax3.github.io.git
