@@ -10,7 +10,7 @@ cache:
 notifications:
     email:
         recipients:
-            - babycoolzx@126.com
+            - hao.ch86@gmail.com
         on_success: change
         on_failure: always
 
@@ -31,7 +31,7 @@ after_script:
 
 branches:
     only:
-        - hexo
+        - source
 
 env:
     global:
