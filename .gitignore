@@ -62,3 +62,8 @@ typings/
 
 *.iml
 .idea/
+Thumbs.db
+db.json
+public/
+.deploy*/
+
